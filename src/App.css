@@ -1,42 +1,82 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 50px auto;
+  padding: 25%;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App :hover {
+  background-color: black;
+  color: rgb(243, 191, 232);
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+html
+
+body{
+  background-color: black;
+  height: 90%;
+  
+}
+
+main{
+  background-color: blueviolet;
+ margin: 80px;
+ width: 80%;
+ height: 800px;
+ border: 10px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(234, 185, 185, 0.565);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+ font-weight: bold;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+ 
+}
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Courier New', Courier, monospace;
+  
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  box-shadow: 0 0 80px rgb(13, 219, 226);
+  width: 80%;
+  margin: 10px calc(50% - 40%);
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+    color: rgb(243, 191, 232);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
